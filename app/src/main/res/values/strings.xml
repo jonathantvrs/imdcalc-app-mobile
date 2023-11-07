@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">calculadora_imd</string>
+
+    <string name="app_title">Calculadora IMD</string>
+    <string name="calculator_button">Calculadora</string>
+    <string name="grades_button">Notas</string>
+
+    <string name="grades_title">Calcule sua Média</string>
+    <string name="grade1_hint">Insira nota 01</string>
+    <string name="grade2_hint">Insira nota 02</string>
+    <string name="grade3_hint">Insira nota 03</string>
+    <string name="situation">Situação: </string>
+    <string name="calculate_average_button">Calcular</string>
+    <string name="developer_info">Desenvolvido por: Jonathan Tavares da Silva</string>
+
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_zero">0</string>
+    <string name="button_addition">+</string>
+    <string name="button_subtraction">-</string>
+    <string name="button_multiplication">X</string>
+    <string name="button_division">/</string>
+    <string name="button_delete">DEL</string>
+    <string name="button_equal">=</string>
+</resources>

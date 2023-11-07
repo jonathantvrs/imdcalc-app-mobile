@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.GradesCalculatorFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextGrade3"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="44dp"
+            android:background="@color/edit_text_color"
+            android:ems="10"
+            android:hint="@string/grade3_hint"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGrade2" />
+
+        <EditText
+            android:id="@+id/editTextGrade2"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="44dp"
+            android:background="@color/edit_text_color"
+            android:ems="10"
+            android:hint="@string/grade2_hint"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGrade1" />
+
+        <TextView
+            android:id="@+id/notasTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_marginTop="32dp"
+            android:text="@string/grades_title"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextGrade1"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="32dp"
+            android:background="@color/edit_text_color"
+            android:ems="10"
+            android:hint="@string/grade1_hint"
+            android:inputType="numberDecimal"
+            android:shadowColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notasTitle" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/situation"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGrade3" />
+
+        <Button
+            android:id="@+id/calculateAverageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:background="@color/black"
+            android:text="@string/calculate_average_button"
+            app:backgroundTint="@color/primary_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/developer_info"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calculateAverageButton"
+            app:layout_constraintVertical_bias="0.852" />
+
+        <TextView
+            android:id="@+id/situationTextView"
+            android:layout_width="150sp"
+            android:layout_height="25sp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="68dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGrade3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
